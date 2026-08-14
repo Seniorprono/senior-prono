@@ -359,8 +359,12 @@ export default function App() {
         </div>
       )}
 
-      <footer className="max-w-5xl mx-auto px-4 py-10 text-center text-[#F3ECD8]/40 text-xs">
+       <footer className="max-w-5xl mx-auto px-4 py-10 text-center text-[#F3ECD8]/40 text-xs">
         Senior Prono · Les pronostics sont fournis à titre informatif. Joue de manière responsable.
+        <br />
+        <button onClick={() => setView("admin")} className="mt-2 text-[#F3ECD8]/25 hover:text-[#F3ECD8]/60 underline">
+          Espace admin
+        </button>
       </footer>
     </div>
   );
